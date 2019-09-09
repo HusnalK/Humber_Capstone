@@ -1,1 +1,1 @@
-# Humber_Capstone
+# RVR™ (Resistor Value Recoganizer) 
