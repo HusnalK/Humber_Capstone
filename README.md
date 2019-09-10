@@ -1,1 +1,1 @@
-# RVR™ (Resistor Value Recoganizer) 
+# RVR(Resistor Value Recoganizer) 
