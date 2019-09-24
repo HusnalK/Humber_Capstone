@@ -19,7 +19,7 @@
 	</p>
 	<hr>
 	<p>The budget which was decided is shared between me and my project partner can be viewed here:
-	<a hrefhttps://github.com/HusnalK/Resistor-Value-Recoganizer-RVR/blob/master/Documentation/Budget.pdf">
+	<a href="https://github.com/HusnalK/Resistor-Value-Recoganizer-RVR/blob/master/Documentation/Budget.pdf">
 	Budget</a>		
 	</p>		
 			
