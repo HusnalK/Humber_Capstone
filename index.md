@@ -1,6 +1,6 @@
 <html>
 	 
-		<h1><u><p align="center" style="color:#f44030"><u> Repository Created 	</p></u> </h1>
+		<h1><u><p align="center" style="color:#f44030"> Repository Created 	</p></u> </h1>
 			<h3><p align="center" style="color:#f44030"> on September 09, 2019</p> </h3>
 	<hr>
 		<h1 align="center"> Blog Posting</h1>
@@ -22,5 +22,5 @@
 	Budget</a>		
 	</p>		
 			
-</html>
+
 		
