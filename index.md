@@ -8,7 +8,7 @@
 	scan and display the color coded value of a resistor using just a camera. </b></p>
 	<hr>
 	<h3>Blog #4:</h3>
-	<p>I made the purchase of my TSL2591 sensor on DigiKey. It is a fairly fast way to get one and they also have a standard cad 8 			shipping rate. The cost can be seen below: </br>
+	<p>I made the purchase of my TSL2591 sensor on DigiKey. It is a fairly fast way to get one and they also have a standard cad 8 			shipping rate. The cost can be seen below: <br>
 	<img src="Images/proofOfPurchase.jpeg">
 	<hr>
 	<h3>Blog #3:</h3>	
