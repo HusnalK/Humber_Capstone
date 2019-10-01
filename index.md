@@ -9,7 +9,7 @@
 	<hr>
 	<h3>Blog #4:</h3>
 	<p>I made the purchase of my TSL2591 sensor on DigiKey. It is a fairly fast way to get one and they also have a standard cad 8 			shipping rate. The cost can be seen below: <br>
-	<img src="Images/proofOfPurchase.jpeg">
+	<img src="Images/proofOfPurchase.jpg">
 	<hr>
 	<h3>Blog #3:</h3>	
 	<p>The budget which was decided is shared between me and my project partner can be viewed here:
