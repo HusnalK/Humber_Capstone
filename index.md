@@ -6,7 +6,11 @@
 		<h1 align="center"> Blog Posting</h1>
 	<p> <b>This project is called RESISTOR VALUE RECOGANIZER. It's main functionality is to 
 	scan and display the color coded value of a resistor using just a camera. </b></p>
-	<HR>
+	<hr>
+	<h3>Blog #4:</h3>
+	<p>I made the purchase of my TSL2591 sensor on DigiKey. It is a fairly fast way to get one and they also have a standard cad 8 			shipping rate. The cost can be seen below: </br>
+	<img src="Images/proofOfPurchase.jpeg">
+	<hr>
 	<h3>Blog #3:</h3>	
 	<p>The budget which was decided is shared between me and my project partner can be viewed here:
 	<a href="https://github.com/HusnalK/Resistor-Value-Recoganizer-RVR/blob/master/Documentation/Budget.pdf">
