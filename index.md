@@ -3,6 +3,20 @@
 	<p> <b>This project is called Resistor Value Recognizer. It's main functionality is to 
 	scan and display the color coded value of a resistor using a camera. </b></p>
 	<hr>
+	<h3>Blog #6:</h3>
+	<p>I used Fritzing to design my PCB. Starting with breadboard as shown below: <br>
+	<img src="Images/Breadboard.JPG">
+	<br>
+	Then I finalized the schematics: <br>
+	<img src="Images/Schematics.JPG">
+	<br>
+	Lastly, I organized my PCB, exported it as a gerber file and finally, sent it to be made:
+	<img src="Images/PCB.JPG">
+	<hr>
+	<h3>Blog #5:</h3>
+	<p>Down below is the picture of the resistor which arrived from DigiKey: <br>
+	<img src="Images/">
+	<hr>
 	<h3>Blog #4:</h3>
 	<p>I made the purchase of my TSL2591 sensor on DigiKey. It is a fairly fast way to get one and they also have a standard cad 8 			shipping rate. The cost can be seen below: <br>
 	<img src="Images/proofOfPurchase.jpg">
