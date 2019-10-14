@@ -5,10 +5,10 @@
 	<hr>
 	<h3>Blog #6:</h3>
 	<p>I used Fritzing to design my PCB. Starting with breadboard as shown below: <br>
-	<img src="Images/breadboard.jpg">
+	<img src="Images/Breadboard.jpg">
 	<br>
 	Then I finalized the schematics: <br>
-	<img src="Images/schematics.jpg">
+	<img src="Images/Schematics.jpg">
 	<br>
 	Lastly, I organized my PCB, exported it as a gerber file and finally, sent it to be made:
 	<img src="Images/PCB.jpg">
