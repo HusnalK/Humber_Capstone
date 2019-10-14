@@ -5,13 +5,13 @@
 	<hr>
 	<h3>Blog #6:</h3>
 	<p>I used Fritzing to design my PCB. Starting with breadboard as shown below: <br>
-	<img src="Images/Breadboard.jpg">
+	<img src="Images/Breadboard.JPG">
 	<br>
 	Then I finalized the schematics: <br>
-	<img src="Images/Schematics.jpg">
+	<img src="Images/Schematics.JPG">
 	<br>
 	Lastly, I organized my PCB, exported it as a gerber file and finally, sent it to be made:
-	<img src="Images/PCB.jpg">
+	<img src="Images/PCB.JPG">
 	<hr>
 	<h3>Blog #5:</h3>
 	<p>Down below is the picture of the resistor which arrived from DigiKey: <br>
