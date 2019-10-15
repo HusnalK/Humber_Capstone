@@ -12,11 +12,12 @@
 	<img src="Images/Schematics.JPG">
 	<br>
 	Lastly, I organized my PCB, exported it as a gerber file and finally, sent it to be made:
+	<img src="Images/PCB2.JPG.jpg">
 	<img src="Images/PCB2.JPG">
 	<hr>
 	<h3>Blog #5:</h3>
 	<p>Down below is the picture of the resistor which arrived from DigiKey: <br>
-	<img src="Images/">
+	<img src="Images/PartsRecieved.jpg">
 	<hr>
 	<h3>Blog #4:</h3>
 	<p>I made the purchase of my TSL2591 sensor on DigiKey. It is a fairly fast way to get one and they also have a standard cad 8 			shipping rate. The cost can be seen below: <br>
