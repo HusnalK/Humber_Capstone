@@ -4,7 +4,7 @@
 	scan and display the color coded value of a resistor using a camera. </b></p>
 	<hr>
 	<h3>Blog #6:</h3>
-	<p>I used Fritzing to design my PCB. The Fritzing files can be found here: <a href="Electronics/PCB.fzz">PCB.fzz</a> and <a href="Images/PCB.JPG.jpg">PCB2.fzz</a>
+	<p>I used Fritzing to design my PCB. The Fritzing files can be found here: <a href="Electronics/PCB.fzz">PCB.fzz</a> and <a href="Electronics/PCB2.fzz">PCB2.fzz</a>
 		Starting with breadboard as shown below: <br>
 	<img src="Images/Breadboard.JPG">
 	<br>
