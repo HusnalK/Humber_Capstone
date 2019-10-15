@@ -12,7 +12,7 @@
 	<img src="Images/Schematics.JPG">
 	<br>
 	Lastly, I organized my PCB, exported it as a gerber file and finally, sent it to be made:
-	<img src="Images/PCB.JPG">
+	<img src="Images/PCB2.JPG">
 	<hr>
 	<h3>Blog #5:</h3>
 	<p>Down below is the picture of the resistor which arrived from DigiKey: <br>
