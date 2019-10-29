@@ -3,6 +3,17 @@
 	<p> <b>This project is called Resistor Value Recognizer. It's main functionality is to 
 	scan and display the color coded value of a resistor using a camera. </b></p>
 	<hr>
+	<h3>Blog #8:</h3>
+	<p>Finally got around to upload the Raspbian for my Raspberry Pi 3 B+. I used the instrictions found on this link to download the image and then write it on the SD card: <a href="https://www.raspberrypi.org/documentation/installation/installing-images/README.md">Raspbian Download</a> <br> <br>
+	<img src="Images/raspbianUpdate1.jpg"> <img src="Images/raspbianUpdate2.jpg">
+	<hr>
+	<h3>Blog #7:</h3>
+	<p>I got my PCB built by exporting the gerber files from my fritzing project linked in Blog #6. This PCB was built in Humber College's Prototype Lab. <br>
+		<b>Front of the PCB </b><br>
+	<img src="Images/BuiltPCBFront.jpg"> <br>
+		<b>Back of the PCB</b>
+	<img src="Images/BuiltPCBBack.jpg"> <br>
+	<hr>
 	<h3>Blog #6:</h3>
 	<p>I used Fritzing to design my PCB. The Fritzing files can be found here: <a href="Electronics/PCB.fzz">PCB.fzz</a> and <a href="Electronics/PCB2.fzz">PCB2.fzz</a>
 		Starting with breadboard as shown below: <br>
