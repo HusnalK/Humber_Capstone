@@ -9,10 +9,10 @@
 	<hr>
 	<h3>Blog #7:</h3>
 	<p>I got my PCB built by exporting the gerber files from my fritzing project linked in Blog #6. This PCB was built in Humber College's Prototype Lab. <br>
-		<b>Front of the PCB </b><br>
+		<u>Front of the PCB </u><br>
 	<img src="Images/BuiltPCBFront.jpg"> <br>
-		<b>Back of the PCB</b>
-	<img src="Images/BuiltPCBBack.jpg"> <br>
+		<u>Back of the PCB</u> <br>
+	<img src="Images/BuiltPCBBack.jpg"> 
 	<hr>
 	<h3>Blog #6:</h3>
 	<p>I used Fritzing to design my PCB. The Fritzing files can be found here: <a href="Electronics/PCB.fzz">PCB.fzz</a> and <a href="Electronics/PCB2.fzz">PCB2.fzz</a>
