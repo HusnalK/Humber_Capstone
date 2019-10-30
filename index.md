@@ -5,7 +5,7 @@
 	<hr>
 	<h3>Blog #9:</h3>
 	<p>This week I tested my sensors on a breadboard using a testcode I uploaded on the Raspberry Pi. I got this code from the following website<a href="https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython">Testcode</a> <br> <br>
-	<img src="Images/breadboard.jpg"> <img src="Images/output.jpg">
+	<img src="Images/breadboard.JPG"> <img src="Images/output.JPG">
 	</p>
 	<p> The progress of this project has so far been on track and no extra stuff had to be bought outside of what is given in the budget.</p> 
 	<hr>
