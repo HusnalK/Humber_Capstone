@@ -4,8 +4,8 @@
 	scan and display the color coded value of a resistor using a camera. </b></p>
 	<hr>
 	<h3>Blog #9:</h3>
-	<p>This week I tested my sensors on a breadboard using a testcode I uploaded on the Raspberry Pi. I got this code from the following website<a href="https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython">Testcode</a> <br> <br>
-	<img src="Images/breadboard.JPG"> <img src="Images/output.JPG">
+	<p>This week I tested my sensors on a breadboard using a testcode I uploaded on the Raspberry Pi. I got this code from the following website<a href="https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython">Testcode</a> and the final python file can be found here: <a href="Software/tsl2591_test.py">tsl2591_test.py</a><br> <br>
+	<img src="Images/RealBreadboard.JPG"> <img src="Images/output.JPG">
 	</p>
 	<p> The progress of this project has so far been on track and no extra stuff had to be bought outside of what is given in the budget.</p> 
 	<hr>
