@@ -3,6 +3,12 @@
 	<p> <b>This project is called Resistor Value Recognizer. It's main functionality is to 
 	scan and display the color coded value of a resistor using a camera. </b></p>
 	<hr>
+	<h3>Blog #10:</h3>
+	Down below is my soldered PCB. Everything went smoothly and as planned in the proposal. The project is still on schedule. Did not have any extra expenses. However, I am thinking about buying USB to ethernet from Amazon, so I can have access to my broadcom development platform right from my laptop without the need of a HDMI and periperals.
+	<img src="Images/pcbSoldered1.jpg"> <br>
+	<img src="Images/pcbSoldered2.jpg"> <br>
+	<img src="Images/pcbSoldered3.jpg"> 
+	<hr>
 	<h3>Blog #9:</h3>
 	<p>This week I tested my sensors on a breadboard using a testcode I uploaded on the Raspberry Pi. I got this code from the following website<a href="https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython">Testcode</a> and the final python file can be found here: <a href="Software/tsl2591_test.py">tsl2591_test.py</a><br> <br>
 	<img src="Images/RealBreadboard.JPG"> <img src="Images/output.JPG">
