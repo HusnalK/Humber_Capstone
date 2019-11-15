@@ -8,8 +8,8 @@
 	<img src="Images/connector.jpg"> <br>
 	The following pictures, demonstrate my working powered up PCB.
 	<img src="Images/powerUp1.jpg"> <br>
-	<img src="Images/powerup2.jpg"> <br>
-	<img src="Images/powerup3.jpg">
+	<img src="Images/powerUp2.jpg"> <br>
+	<img src="Images/powerUp3.jpg">
 	<hr>
 	<h3>Blog #10:</h3>
 	Down below is my soldered PCB. Everything went smoothly and as planned in the proposal. The project is still on schedule. Did not have any extra expenses. However, I am thinking about buying USB to ethernet from Amazon, so I can have access to my broadcom development platform right from my laptop without the need of a HDMI and periperals.
