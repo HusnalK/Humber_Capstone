@@ -4,7 +4,8 @@
 	scan and display the color coded value of a resistor using a camera. </b></p>
 	<hr>
 	<h3>Blog #11:</h3>
-	This week we finally powered up our soldered PCB. My PCB ran perfectly as expected and did not have any issues at all. This project is still on schedule and on track with the proposal. However, as mentioned in the previous blog, I bought a USB3 to Ethernet adaptor from Amazon for $22.66. It was a great adaptor, since it didn't require any downloads on windows to work. The image below is how the adaptor looks like: <br>
+	This week we finally powered up our soldered PCB. My PCB ran perfectly as expected and did not have any issues at all. This project is still on schedule and on track with the proposal. However, as mentioned in the previous blog, I bought a USB3 to Ethernet adaptor from Amazon for $22.66. It was a great adaptor, since it didn't require any downloads on windows to work. The updated budget can be seen here: <a href="https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/Budget.pdf">
+	Budget</a>.The image below is how the adaptor looks like: <br> 
 	<img src="Images/connector.jpg"> <br>
 	The following pictures, demonstrate my working powered up PCB.
 	<img src="Images/powerUp1.jpg"> <br>
