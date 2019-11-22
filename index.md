@@ -3,6 +3,17 @@
 	<p> <b>This project is called Resistor Value Recognizer. It's main functionality is to 
 	scan and display the color coded value of a resistor using a camera. </b></p>
 	<hr>
+	<h3>Blog #12:</h3>
+	Last week, I designed and got the enclosure laser cut for my raspberry pi and the sensor. My design is the modified version of the original case design which can be found <a href="https://github.com/diy-electronics/raspberrypi-b-plus-case"> here</a>. I removed the symbol of pi from the top and added a window where my sensor could peak out and easily detect the changed in luminosity. I also added a slit on one of the sides of the case to insert my sensor so that it remains stable in the case. Since, I had wires connecting my PCB to the raspberry pi pins, and the wires were quite long, I zip-tied them and tucked them underneath the pi to make it more cleaner. I got the screws for my raspberry pi from the prototype lab, so I did not have to purchase them. No extra cost was concurred and this part of the project ended on time. I had to get my case laser cut as I had to change the diamensions of the slit. But, in the end it all worked out and the working enclosure can be seen in the picture blow:	
+	<img src="Images/enclosureFull.jpg"> <br>
+	The following pictures show all the sides of the enclosure:
+	<img src="Images/enclosure1.jpg"> <br>
+	<img src="Images/enclosure2.jpg"> <br>
+	<img src="Images/enclosure3.jpg"> <br>
+	<img src="Images/enclosure4.jpg"> <br>
+	<img src="Images/enclosure5.jpg"> <br>
+	<img src="Images/enclosure6.jpg"> <br>
+	<hr>
 	<h3>Blog #11:</h3>
 	This week we finally powered up our soldered PCB. My PCB ran perfectly as expected and did not have any issues at all. This project is still on schedule and on track with the proposal. However, as mentioned in the previous blog, I bought a USB3 to Ethernet adaptor from Amazon for $22.66. It was a great adaptor, since it didn't require any downloads on windows to work. The updated budget can be seen here: <a href="https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/Budget.pdf">
 	Budget</a>.The image below is how the adaptor looks like: <br> 
