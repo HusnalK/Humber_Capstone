@@ -14,5 +14,5 @@ The build instructions given below work with Adafruit's luminosity sensor- TSL25
 These build instructions will demonstrate the process to design, program and build a PCB for the sensor to connect it to a broadcom development platform. The sensor in this tutorial is working with Raspberry Pi 3B+ and will provide the design file for a laser cut acrylic case  along with refrences to all the resources that will be needed for the creation of this project.
 
 The final design and build of the project can be seen below:
-![Image](Images/enclosure.jpg)
+![Image](Images/enclosure1.jpg)
 
