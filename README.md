@@ -6,7 +6,7 @@
 
 [Budget](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Budget)
 
-[Time Commitment](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Time Commitment)
+[Time Commitment](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Time-Commitment)
 
 ### Introduction
 The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
