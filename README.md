@@ -148,6 +148,6 @@ Now, screw in the Raspberry Pi motherboard and assemble the case with the PCB in
 
 <img src= "Images/enclosure2.jpg" width="400" height="500" alt="Case Bottom"> <img src= "Images/enclosure1.jpg" width="400" height="500" alt="Case Top">
 
-<img src= "Images/enclosure3.jpg" width="400" height="500" alt="Case Side1"> <img src= "Images/enclosure4.jpg.jpg" width="400" height="500" alt="Case Side2">
+<img src= "Images/enclosure3.jpg" width="400" height="500" alt="Case Side1"> <img src= "Images/enclosure4.jpg" width="400" height="500" alt="Case Side2">
 
 <img src= "Images/enclosure5.jpg" width="400" height="500" alt="Case Side3"> <img src= "Images/enclosure6.jpg" width="400" height="500" alt="Case Side4">
