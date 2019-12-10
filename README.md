@@ -58,11 +58,11 @@ I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD 
 
 Also an important thing to note is that the table above only shows the cost of the part; Taxes, shipping, duty and import fee might still be laid on top of these prices depending on where you live. This may cause an increase in the cost of the project.
 
-My budget can be found [here](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Documentation/Budget.pdf). The steep differrence from the amount given in the above table and my budget is due to the fact that I already had a raspberry pi kit which had all it's essentials in it and I was also able to procure a lot of materials from the prototype lab in my college, which also provided me the space to do all my testing and laser cutting.
+My budget can be found [here](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/Budget.pdf). The steep differrence from the amount given in the above table and my budget is due to the fact that I already had a raspberry pi kit which had all it's essentials in it and I was also able to procure a lot of materials from the prototype lab in my college, which also provided me the space to do all my testing and laser cutting.
 
 ### Time Commitment
 
-The schedule that was followed by me ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Documentation/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
+The schedule that was followed by me ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Documentation/blob/master/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
 
 However, for a person who:
 * has all the parts procured along with a raspberrry pi which has raspbian installed and booted up
@@ -103,7 +103,7 @@ The following resources can be used to download Raspbian on a Raspberry Pi and b
 While setting up the Raspberry Pi, don't forget to enable the I2C bus in the same way as enabling SSH and RDP. It will be used later by the code to interface between the Raspberry Pi and the sensor. 
 ### Step 2- Breadboarding 
 
-You can use the fritzing files made by me to get started on your breadboarding. The connections can be found in it. ([Fritzing File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB.fzz))
+You can use the fritzing files made by me to get started on your breadboarding. The connections can be found in it. ([Fritzing File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Electronics/PCB.fzz))
 Another resource that can be used for finding the right connections is [this part](https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython#python-computer-wiring-6-3) from a Adafruit webpage.
 <img src= "Images/PCB_bb.jpg" width="400" height="500" alt="Breadboard from fritzing 1">
 <img src= "Images/Schematics.JPG" width="400" height="500" alt="Breadboard from fritzing 2">
@@ -131,7 +131,7 @@ All the connections together can be seen below:
 
 The fritzing file provided below should be converted to a gerber file and then used to get the PCB etched. Don't forget to edit out my name.
 
-[Fritzing File 2](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB2.fzz) 
+[Fritzing File 2](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Electronics/PCB2.fzz) 
 
 <img src= "Images/BuiltPCBFront.jpg" width="400" height="500" alt="Front"> <img src= "Images/BuiltPCBBack.jpg" width="400" height="500" alt="Back">
 
@@ -148,7 +148,7 @@ In this project, I am using a clear acrylic for my case since it will make it ea
 
 Again, don't forget to edit out my name and the name of the project! 
 
-[CorelDraw File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Mechanical/HusnalPi2CaseX6New.cdr) 
+[CorelDraw File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Mechanical/blob/master/HusnalPi2CaseX6New.cdr) 
 
 The original design for the case can be found here: [Original CorelDraw File](https://github.com/diy-electronics/raspberrypi-b-plus-case)  
 
