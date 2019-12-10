@@ -8,6 +8,8 @@
 
 [Time Commitment](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Time-Commitment)
 
+[Step 1- Raspberry Pi Setup] (https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-1--Raspberry-Pi-Setup) 
+
 ### Introduction
 The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
 
@@ -40,6 +42,34 @@ Total = 190.78 CAD
 
 I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD card is used to upload the raspbian and set up the Raspberry Pi. Some of these supplies like Raspberry Pi and its power supply, micro SD card, header and wires, ethernet cable and Acrylic glass sheet might already be avaiable with a lot of people doing this project and that greatly reduces the cost of the project.  
 
-Also an important thing to note is that the table above only shows the cost of the part; Taxes, shipping and import fee might still be laid on top of these prices depending on where you live. This may cause an increase in the cost of the project.
+Also an important thing to note is that the table above only shows the cost of the part; Taxes, shipping, duty and import fee might still be laid on top of these prices depending on where you live. This may cause an increase in the cost of the project.
+
+My budget can be found [here](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Documentation/Budget.pdf). The steep differrence from the amount given in the above table and my budget is due to the fact that I already had a raspberry pi kit which had all it's essentials in it and I was also able to procure a lot of materials from the prototype lab in my college, which also provided me the space to do all my testing and laser cutting.
 
 ### Time Commitment
+
+The schedule that was followed by me ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Documentation/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
+
+However, for a person who:
+* has all the parts procured along with a raspberrry pi which has raspbian installed and booted up
+* is proficient in soldering and other electronics aspects like wiring and PCB designing, etc
+* can upload and run the code on raspbian
+* has all the machinery like laser cutter and soldering necessities nearby
+
+the estimated time it might take to recreate the same project is as follows:
+
+|                 Task                 |    Time    |
+|--------------------------------------|------------|
+| Breadboarding and Connection Testing | 25 minutes |
+| Uploading Code and Testing           | 20 minutes |
+| PCB Laser Cutting and Etching        | 60 minutes |
+| PCB Soldering                        | 15 minutes |
+| PCB Power-Up                         | 10 minutes |
+| Laser Cutting Case                   | 20 minutes |
+| Case and PCB Assembly                | 25 minutes |
+| Final Power-Up and Testing           | 20 minutes |
+Total Time = 195 minutes = 3 hours 25 minutes
+
+Therefore, the project can be developed in one weekend. However, it is important to remeber that some things may increase the time frame, for example- it may take weeks for the parts to arrive or the PCB was not etched properly the first time or breadboarding was incorrectly done, or the machinery was not available on site, etc.
+
+### Step 1- Raspberry Pi Setup
