@@ -118,6 +118,10 @@ The following resources can be used to download Raspbian on a Raspberry Pi and b
 While setting up the Raspberry Pi, don't forget to enable the I2C bus in the same way as enabling SSH and RDP. It will be used later by the code to interface between the Raspberry Pi and the sensor. 
 ### Step 2- Breadboarding 
 
+<p align="center">
+<img src="Images/Conneection.JPG" alt="Connections">
+</p>
+
 You can use the fritzing files made by me to get started on your breadboarding. The connections can be found in it. ([Fritzing File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Electronics/PCB.fzz))
 Another resource that can be used for finding the right connections is [this part](https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython#python-computer-wiring-6-3) from a Adafruit webpage.
 <img src= "Images/PCB_bb.jpg" width="400" height="500" alt="Breadboard from fritzing 1">
