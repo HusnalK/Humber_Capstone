@@ -36,7 +36,7 @@ The final design and build of the project can be seen below:
 
 ### System Diagram
 
-![UML](Images/UML.JPG)
+![UML](Images/Uml.JPG)
 
 ### Budget
 
