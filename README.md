@@ -10,7 +10,9 @@
 
 [Step 1- Raspberry Pi Setup](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-1--Raspberry-Pi-Setup) 
 
-[Step 2- Breadboarding](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-1--Breadboarding) 
+[Step 2- Breadboarding](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-1--Breadboarding)
+
+[Step 3- Uploading Code and Testing ] (https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-3--Uploading-Code-and-Testing) 
 
 ### Introduction
 The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
@@ -62,7 +64,7 @@ the estimated time it might take to recreate the same project is as follows:
 
 |                 Task                 |    Time    |
 |--------------------------------------|------------|
-| Breadboarding and Connection Testing | 25 minutes |
+| Breadboarding                        | 15 minutes |
 | Uploading Code and Testing           | 20 minutes |
 | PCB Laser Cutting and Etching        | 60 minutes |
 | PCB Soldering                        | 15 minutes |
@@ -70,7 +72,7 @@ the estimated time it might take to recreate the same project is as follows:
 | Laser Cutting Case                   | 20 minutes |
 | Case and PCB Assembly                | 25 minutes |
 | Final Power-Up and Testing           | 20 minutes |
-Total Time = 195 minutes = 3 hours 25 minutes
+Total Time = 185 minutes = 3 hours 5 minutes
 
 Therefore, the project can be developed in one weekend. However, it is important to remeber that some things may increase the time frame, for example- it may take weeks for the parts to arrive or the PCB was not etched properly the first time or breadboarding was incorrectly done, or the machinery was not available on site, etc.
 
@@ -88,9 +90,25 @@ The following resources can be used to download Raspbian on a Raspberry Pi and b
 * http://www.circuitbasics.com/access-raspberry-pi-desktop-remote-connection/
 * https://www.raspberrypi.org/documentation/remote-access/ssh/
 
-### Step 2- Breadboarding
+While setting up the Raspberry Pi, don't forget to enable the I2C bus in the same way as enabling SSH and RDP. It will be used later by the code to interface between the Raspberry Pi and the sensor. 
+### Step 2- Breadboarding 
 
-You can use the fritzing files made by me to get started on your breadboarding. ([Fritzing File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB.fzz))
-Another resource that can be used for finding the right connections and hence, breadboarding is [this part](https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython#python-computer-wiring-6-3) from a Adafruit webpage.
+You can use the fritzing files made by me to get started on your breadboarding. The connections can be found in it. ([Fritzing File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB.fzz))
+Another resource that can be used for finding the right connections is [this part](https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython#python-computer-wiring-6-3) from a Adafruit webpage.
+
 <img src= "Images/PCB_bb.jpg" width="400" height="500" alt="Breadboard from fritzing 1">
 <img src= "Images/Schematics.JPG" width="400" height="500" alt="Breadboard from fritzing 2">
+
+It is important to test the validity of the the connections and the sensor before printing the PCB, so assembling the connections of the sensor to the Raspberry Pi on a breadboard, as shown below, is important.  
+
+<img src= "Images/RealBreadboard.JPG" width="500" height="600" alt="Breadboard connections">
+
+### Step 3- Uploading Code and Testing 
+
+The code that I uploaded is refered from [this](https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython#circuitpython-installation-of-tsl2591-6-5) webpage can be found here: [Sensor Code](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Software/tsl2591_test.py). 
+
+In some cases the user might need to follow the steps given in the original refrence to download [CircuitPython](https://github.com/adafruit/Adafruit_CircuitPython_TSL2591#installing-from-pypi) and the [CircuitPython librabry bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle#cpython).
+
+To run the code, move into the right directory on the command terminal and then use the command ```python tsl2591_test.py```. The output will display the light intensity in lux units as sensed by the sensor.
+
+<img src= "Images/outputSnip.JPG"  alt="Output">
