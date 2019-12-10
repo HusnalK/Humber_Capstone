@@ -4,7 +4,9 @@
 ### Table of Contents 
 [Introduction](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Introduction)
 
-[Budget](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Budget)
+[System Diagram](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#System-Diagram)
+
+[Parts Required](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Parts-Required)
 
 [Time Commitment](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Time-Commitment)
 
@@ -25,9 +27,9 @@
 [Conclusion](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Conclusion)
 
 ### Introduction
-The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
+The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integrated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LEDs in the final project to provide adequate lighting to the camera.
 
-These build instructions will demonstrate the process to design, program and build a PCB for the sensor to connect it to a broadcom development platform. The sensor in this tutorial is working with Raspberry Pi 3B+ and will provide the design file for a laser cut acrylic case along with refrences to all the resources that will be needed for the creation of this project.
+These build instructions will demonstrate the process to design, program and build a PCB for the sensor to connect it to a broadcom development platform. The sensor in this tutorial is working with Raspberry Pi 3B+ and will provide the design file for a laser cut acrylic case along with references to all the resources that will be needed for the creation of this project.
 
 The final design and build of the project can be seen below:
 <p align="center">
@@ -38,7 +40,7 @@ The final design and build of the project can be seen below:
 
 ![UML](Images/Uml.JPG)
 
-### Budget
+### Parts Required
 
 Given below is the list of all the parts that might be required in this project. It is taking into consideration that you have facilities for safe soldering and powering up the project. 
 
@@ -58,21 +60,21 @@ Given below is the list of all the parts that might be required in this project.
 Total = 190.78 CAD
 
 
-I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD card is used to upload the raspbian and set up the Raspberry Pi. Some of these supplies like Raspberry Pi and its power supply, micro SD card, header and wires, ethernet cable and Acrylic glass sheet, might already be avaiable with a lot of people doing this project and that greatly reduces the cost of the project. I also bought an USB 3 to Ethernet Adaptor to connect my Raspberry Pi to my laptop using SSH and RDP. This part from Amazon does not require any drivers to be downloaded on Windows.  
+I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD card is used to upload the Raspbian and set up the Raspberry Pi. Some of these supplies like Raspberry Pi and its power supply, micro SD card, header and wires, ethernet cable and Acrylic glass sheet, might already be available with a lot of people doing this project and that greatly reduces the cost of the project. I also bought a USB 3 to Ethernet Adaptor to connect my Raspberry Pi to my laptop using SSH and RDP. This part from Amazon does not require any drivers to be downloaded on Windows.  
 
-Also an important thing to note is that the table above only shows the cost of the part; Taxes, shipping, duty and import fee might still be laid on top of these prices depending on where you live. This may cause an increase in the cost of the project.
+Also, an important thing to note is that the table above only shows the cost of the part; Taxes, shipping, duty, and import fee might still be laid on top of these prices depending on where you live. This may cause an increase in the cost of the project.
 
-My budget can be found [here](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/Budget.pdf). The steep differrence from the amount given in the above table and my budget is due to the fact that I already had a raspberry pi kit which had all it's essentials in it and I was also able to procure a lot of materials from the prototype lab in my college, which also provided me the space to do all my testing and laser cutting.
+My budget can be found [here](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/Budget.pdf). The steep difference from the amount given in the above table and my budget is due to the fact that I already had a Raspberry Pi kit which had all its essentials in it and I was also able to procure a lot of materials from the prototype lab in my college, which also provided me the space to do all my testing and laser cutting.
 
 ### Time Commitment
 
 The schedule that was followed by me ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
 
 However, for a person who:
-* has all the parts procured along with a raspberrry pi which has raspbian installed and booted up
+* has all the parts procured along with a Raspberrry Pi which has Raspbian installed and booted up
 * is proficient in soldering and other electronics aspects like wiring and PCB designing, etc
-* can upload and run the code on raspbian
-* has all the machinery like laser cutter and soldering necessities nearby
+* can upload and run the code on Raspbian
+* has all the machinery like the laser cutter and soldering necessities nearby
 
 the estimated time it might take to recreate the same project is as follows:
 
@@ -88,7 +90,7 @@ the estimated time it might take to recreate the same project is as follows:
 | Final Power-Up and Testing           | 20 minutes |
 Total Time = 185 minutes = 3 hours 5 minutes
 
-Therefore, the project can be developed in one weekend. However, it is important to remeber that some things may increase the time frame, for example- it may take weeks for the parts to arrive or the PCB was not etched properly the first time or breadboarding was incorrectly done, or the machinery was not available on site, etc.
+Therefore, the project can be developed in one weekend. However, it is important to remember that some things may increase the time frame, for example- it may take weeks for the parts to arrive or the PCB was not etched properly the first time or breadboarding was incorrectly done, or the machinery was not available on-site, etc.
 
 ### Step 1- Raspberry Pi Setup
 
@@ -133,7 +135,7 @@ All the connections together can be seen below:
 
 ### Step 4- PCB Etching, Soldering and Power Up
 
-The fritzing file provided below should be converted to a gerber file and then used to get the PCB etched. Don't forget to edit out my name.
+The fritzing file provided below should be converted to a Gerber file and then used to get the PCB etched. Don't forget to edit out my name.
 
 [Fritzing File 2](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Electronics/PCB2.fzz) 
 
@@ -148,15 +150,15 @@ Now Solder the headers onto it as shown below:
 
 ### Step 5- Case Laser Cutting and Assembling
 
-In this project, I am using a clear acrylic for my case since it will make it easier for the sensor to sense the light of the surroundings. The CorelDraw file provided below can be used to assemble this project properly. This case has a slit the size of the breadth of the PCB which can be slid into it and the wires can be connected from the sensor to the Raspberry Pi pins efficiently. The reason I am using wires inside the case instead of just mounting the sensor on top of the pins of the Pi directly is to make sure that pins which are not in use by the PCB are avaiable for future use if needed.
+In this project, I am using a clear acrylic for my case since it will make it easier for the sensor to sense the light of the surroundings. The CorelDraw file provided below can be used to assemble this project properly. This case has a slit the size of the breadth of the PCB which can be slid into it and the wires can be connected from the sensor to the Raspberry Pi pins efficiently. The reason I am using wires inside the case instead of just mounting the sensor on top of the pins of the Pi directly is to make sure that pins that are not in use by the PCB are available for future use if needed.
 
-Again, don't forget to edit out my name and the name of the project! 
+Again, don't forget to edit out my name and the name of this project! 
 
 [CorelDraw File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Mechanical/HusnalPi2CaseX6New.cdr) 
 
 The original design for the case can be found here: [Original CorelDraw File](https://github.com/diy-electronics/raspberrypi-b-plus-case)  
 
-Now, screw in the Raspberry Pi motherboard and assemble the case with the PCB in the slit. I used a zip-tie to neatly fold my wires inside the case, you can always use showrter wires.
+Now, screw in the Raspberry Pi motherboard and assemble the case with the PCB in the slit. I used a zip-tie to neatly fold my wires inside the case, you can always use shorter wires.
 
 <img src= "Images/enclosure2.jpg" width="400" height="500" alt="Case Bottom"> <img src= "Images/enclosure1.jpg" width="400" height="500" alt="Case Top">
 
@@ -174,11 +176,11 @@ The final project connected to my laptop along with the output can be seen below
 
 ### Production Testing
 
-While creating this project for production, some steps like breadboarding for each and every unit and testing the connections using the code before assembling the PCB in case can be eliminated. Instead, it is easier and faster to test the connections of multiple PCBs using a multimeter to eliminate the risk of short-circuiting. Breadboarding should only be done once, before the commision of mass production of the PCBs. 
+While creating this project for production, some steps like breadboarding for each unit and testing the connections using the code before assembling the PCB can be eliminated. Instead, it is easier and faster to test the connections of multiple PCBs using a multimeter to eliminate the risk of short-circuiting. Breadboarding should only be done once, before the commission of mass production of the PCBs. 
 
-The final testing can be done efficiently by connecting the the Raspberry pi to a computer and inserting a preloaded SD card in the PI which also has the code inside it. 
+The final testing can be done efficiently by connecting the Raspberry Pi to a computer and inserting a preloaded SD card in the PI which also has the code inside it. 
 
 ### Conclusion
-Hence, the project is easily reproducible by the given instrucions. A person can change the project accroding to their needs but this is one way of working with a Addafruit TSL2591 sensor.
+Hence, the project is easily reproducible by the given instructions. A person can change the project according to their needs but this is one way of working with an Addafruit TSL2591 sensor.
 
 ### [Table of Contents](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Table-of-Contents)
