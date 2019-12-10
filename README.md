@@ -14,7 +14,7 @@
 
 [Step 3- Uploading Code and Testing ](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-3--Uploading-Code-and-Testing)
 
-[Step 4- PCB Etching, Soldering and Power Up](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step 4--PCB-Etching,-Soldering-and-Power-Up)
+[Step 4- PCB Etching, Soldering and Power Up](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-4--PCB-Etching,-Soldering-and-Power-Up)
 
 ### Introduction
 The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
@@ -115,12 +115,39 @@ To run the code, move into the right directory on the command terminal and then 
 ![Output](Images/outputSnip.JPG)
 
 All the connections together can be seen below:
-<img src="Images/powerUp1.jpg" alt="Connections">
+
+![Connections](Images/powerUp1.jpg)
+
 
 ### Step 4- PCB Etching, Soldering and Power Up
 
-The fritzing file provided below should be converted to a gerber file and then used to get the PCB etched.
+The fritzing file provided below should be converted to a gerber file and then used to get the PCB etched. Don't forget to edit out my name.
+
 [Fritzing File 2](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB2.fzz) 
 
+<img src= "Images/BuiltPCBFront.jpg" width="400" height="500" alt="Front"> <img src= "Images/BuiltPCBBack.jpg" width="400" height="500" alt="Back">
 
+Now Solder the headers onto it as shown below:
+(TIP: Always wear safety glasses while Soldering)
 
+<img src= "Images/pcbSoldered2.jpg" width="400" height="500" alt="Soldered Front"> <img src= "Images/pcbSoldered1.jpg" width="400" height="500" alt="Back">
+
+<img src= "Images/pcbSoldered3.jpg" width="800" height="600" alt="Soldered Final">
+
+### Step 5- Case Laser Cutting and Assembling
+
+In this project, I am using a clear acrylic for my case since it will make it easier for the sensor to sense the light of the surroundings. The CorelDraw file provided below can be used to assemble this project properly. This case has a slit the size of the breadth of the PCB which can be slid into it and the wires can be connected from the sensor to the Raspberry Pi pins efficiently. The reason I am using wires inside the case instead of just mounting the sensor on top of the pins of the Pi directly is to make sure that pins which are not in use by the PCB are avaiable for future use if needed.
+
+Again, don't forget to edit out my name and the name of the project! 
+
+[CorelDraw File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Mechanical/HusnalPi2CaseX6New.cdr) 
+
+The original design for the case can be found here: [Original CorelDraw File](https://github.com/diy-electronics/raspberrypi-b-plus-case)  
+
+Now, screw in the Raspberry Pi motherboard and assemble the case with the PCB in the slit. I used a zip-tie to neatly fold my wires inside the case, you can always use showrter wires.
+
+<img src= "Images/enclosure2.jpg" width="400" height="500" alt="Case Bottom"> <img src= "Images/enclosure1.jpg" width="400" height="500" alt="Case Top">
+
+<img src= "Images/enclosure3.jpg" width="400" height="500" alt="Case Side1"> <img src= "Images/enclosure4.jpg.jpg" width="400" height="500" alt="Case Side2">
+
+<img src= "Images/enclosure5.jpg" width="400" height="500" alt="Case Side3"> <img src= "Images/enclosure6.jpg" width="400" height="500" alt="Case Side4">
