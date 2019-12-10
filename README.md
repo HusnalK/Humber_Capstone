@@ -34,6 +34,10 @@ The final design and build of the project can be seen below:
 <img src="Images/enclosure1.jpg" width="500" height="600" align="middle" alt="Enclosure">
 </p>
 
+### System Diagram
+
+![UML](Images/UML.JPG)
+
 ### Budget
 
 Given below is the list of all the parts that might be required in this project. It is taking into consideration that you have facilities for safe soldering and powering up the project. 
