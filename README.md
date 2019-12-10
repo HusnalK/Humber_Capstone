@@ -10,6 +10,8 @@
 
 [Step 1- Raspberry Pi Setup](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-1--Raspberry-Pi-Setup) 
 
+[Step 2- Breadboarding](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-1--Breadboarding) 
+
 ### Introduction
 The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
 
@@ -40,7 +42,7 @@ Given below is the list of all the parts that might be required in this project.
 Total = 190.78 CAD
 
 
-I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD card is used to upload the raspbian and set up the Raspberry Pi. Some of these supplies like Raspberry Pi and its power supply, micro SD card, header and wires, ethernet cable and Acrylic glass sheet might already be avaiable with a lot of people doing this project and that greatly reduces the cost of the project.  
+I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD card is used to upload the raspbian and set up the Raspberry Pi. Some of these supplies like Raspberry Pi and its power supply, micro SD card, header and wires, ethernet cable and Acrylic glass sheet, might already be avaiable with a lot of people doing this project and that greatly reduces the cost of the project. I also bought an USB 3 to Ethernet Adaptor to connect my Raspberry Pi to my laptop using SSH and RDP. This part from Amazon does not require any drivers to be downloaded on Windows.  
 
 Also an important thing to note is that the table above only shows the cost of the part; Taxes, shipping, duty and import fee might still be laid on top of these prices depending on where you live. This may cause an increase in the cost of the project.
 
@@ -73,3 +75,22 @@ Total Time = 195 minutes = 3 hours 25 minutes
 Therefore, the project can be developed in one weekend. However, it is important to remeber that some things may increase the time frame, for example- it may take weeks for the parts to arrive or the PCB was not etched properly the first time or breadboarding was incorrectly done, or the machinery was not available on site, etc.
 
 ### Step 1- Raspberry Pi Setup
+
+The following resources can be used to download Raspbian on a Raspberry Pi and boot it. Resources are also given on how to set up SSH and Remote Desktop on it too.
+
+##### -> Setting up Raspberry Pi
+* https://www.raspberrypi.org/downloads/raspbian/
+* https://www.raspberrypi.org/documentation/installation/installing-images/README.md
+* https://www.youtube.com/watch?v=wvxCNQ5AYPg
+
+##### -> Setting up SSH and RDP
+* https://www.youtube.com/watch?v=IDqQIDL3LKg
+* http://www.circuitbasics.com/access-raspberry-pi-desktop-remote-connection/
+* https://www.raspberrypi.org/documentation/remote-access/ssh/
+
+### Step 2- Breadboarding
+
+You can use the fritzing files made by me to get started on your breadboarding. ([Fritzing File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB.fzz))
+Another resource that can be used for finding the right connections and hence, breadboarding is [this part](https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython#python-computer-wiring-6-3) from a Adafruit webpage.
+<img src= "Images/PCB_bb.jpg" width="400" height="500" alt="Breadboard from fritzing 1">
+<img src= "Images/Schematics.JPG" width="400" height="500" alt="Breadboard from fritzing 2">
