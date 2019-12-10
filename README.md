@@ -1,10 +1,19 @@
 # RVR(Resistor Value Recoganizer) 
 ## Build Insructions for Luminosity Sensor - TSL2591 from Adafruit
 
-### Table of Contents 
-[Introduction](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Introduction)
+![UML](Images/Uml.JPG)
 
-[System Diagram](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#System-Diagram)
+
+The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integrated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LEDs in the final project to provide adequate lighting to the camera.
+
+These build instructions will demonstrate the process to design, program and build a PCB for the sensor to connect it to a broadcom development platform. The sensor in this tutorial is working with Raspberry Pi 3B+ and will provide the design file for a laser cut acrylic case along with references to all the resources that will be needed for the creation of this project.
+
+The final design and build of the project can be seen below:
+<p align="center">
+<img src="Images/enclosure1.jpg" width="500" height="600" align="middle" alt="Enclosure">
+</p>
+
+### Table of Contents 
 
 [Parts Required](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Parts-Required)
 
@@ -26,19 +35,6 @@
 
 [Conclusion](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Conclusion)
 
-### Introduction
-The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integrated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LEDs in the final project to provide adequate lighting to the camera.
-
-These build instructions will demonstrate the process to design, program and build a PCB for the sensor to connect it to a broadcom development platform. The sensor in this tutorial is working with Raspberry Pi 3B+ and will provide the design file for a laser cut acrylic case along with references to all the resources that will be needed for the creation of this project.
-
-The final design and build of the project can be seen below:
-<p align="center">
-<img src="Images/enclosure1.jpg" width="500" height="600" align="middle" alt="Enclosure">
-</p>
-
-### System Diagram
-
-![UML](Images/Uml.JPG)
 
 ### Parts Required
 
@@ -59,8 +55,21 @@ Given below is the list of all the parts that might be required in this project.
 | Nuts (M2.5)                    |       4                     | Digikey | $ 0.32                    | https://bit.ly/355WCdt  |
 Total = 190.78 CAD
 
-
 I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD card is used to upload the Raspbian and set up the Raspberry Pi. Some of these supplies like Raspberry Pi and its power supply, micro SD card, header and wires, ethernet cable and Acrylic glass sheet, might already be available with a lot of people doing this project and that greatly reduces the cost of the project. I also bought a USB 3 to Ethernet Adaptor to connect my Raspberry Pi to my laptop using SSH and RDP. This part from Amazon does not require any drivers to be downloaded on Windows.  
+
+An alternate for a laser cutting machine is getting the Acrylic sheets already laser cut. Submit the following Corel Draw file on the website, chose the colour of acrylic and pay for it together. One such website that can help with this is : [Acrylic Laser Cutting Service](https://www.ponoko.com/laser-cutting/acrylic). 
+
+[CorelDraw File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Mechanical/HusnalPi2CaseX6New.cdr) 
+
+Edit the file according to your needs.
+
+The original design for the case can be found here: [Original CorelDraw File](https://github.com/diy-electronics/raspberrypi-b-plus-case) 
+
+You can also get your PCB made and shipped to you by converting the following Fritzing file to a Gerber file.
+
+[Fritzing File 2](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Electronics/PCB2.fzz) 
+
+A Sevice that can help with this is: [JLCPCB](https://jlcpcb.com/).
 
 Also, an important thing to note is that the table above only shows the cost of the part; Taxes, shipping, duty, and import fee might still be laid on top of these prices depending on where you live. This may cause an increase in the cost of the project.
 
@@ -68,7 +77,7 @@ My budget can be found [here](https://github.com/HusnalK/Resistor-Value-Recogniz
 
 ### Time Commitment
 
-The schedule that was followed by me ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
+The schedule that was followed by me, ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
 
 However, for a person who:
 * has all the parts procured along with a Raspberrry Pi which has Raspbian installed and booted up
