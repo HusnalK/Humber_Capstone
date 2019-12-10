@@ -16,6 +16,12 @@
 
 [Step 4- PCB Etching, Soldering and Power Up](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-4--PCB-Etching,-Soldering-and-Power-Up)
 
+[Step 5- Case Laser Cutting and Assembling](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-5--Case-Laser-Cutting-and-Assembling)
+
+[Step 6- Final Power Up And Testing](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-6--Final-Power-Up-And-Testing)
+
+[Production Testing](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Production-Testing)
+
 ### Introduction
 The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
 
@@ -151,3 +157,22 @@ Now, screw in the Raspberry Pi motherboard and assemble the case with the PCB in
 <img src= "Images/enclosure3.jpg" width="400" height="500" alt="Case Side1"> <img src= "Images/enclosure4.jpg" width="400" height="500" alt="Case Side2">
 
 <img src= "Images/enclosure5.jpg" width="400" height="500" alt="Case Side3"> <img src= "Images/enclosure6.jpg" width="400" height="500" alt="Case Side4">
+
+### Step 6- Final Power Up And Testing
+
+Connect the Raspberry Pi in the case to the computer and repeat whatever is needed in [Step 3](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-3--Uploading-Code-and-Testing) to finally run the completed project and run the testings.
+
+The final project connected to my laptop along with the output can be seen below:
+
+![Final Project](Images/enclosureFull.jpg)
+
+### Production Testing
+
+While creating this project for production, some steps like breadboarding for each and every unit and testing the connections using the code before assembling the PCB in case can be eliminated. Instead, it is easier and faster to test the connections of multiple PCBs using a multimeter to eliminate the risk of short-circuiting. Breadboarding should only be done once, before the commision of mass production of the PCBs. 
+
+The final testing can be done efficiently by connecting the the Raspberry pi to a computer and inserting a preloaded SD card in the PI which also has the code inside it. 
+
+### Conclusion
+Hence, the project is easily reproducible by the given instrucions. A person can change the project accroding to their needs but this is one way of working with a Addafruit TSL2591 sensor.
+
+### [Table of Contents](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Table-of-Contents)
