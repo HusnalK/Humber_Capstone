@@ -12,7 +12,9 @@
 
 [Step 2- Breadboarding](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-1--Breadboarding)
 
-[Step 3- Uploading Code and Testing ] (https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-3--Uploading-Code-and-Testing) 
+[Step 3- Uploading Code and Testing ](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-3--Uploading-Code-and-Testing)
+
+[Step 4- PCB Etching, Soldering and Power Up](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step 4--PCB-Etching,-Soldering-and-Power-Up)
 
 ### Introduction
 The build instructions given below work with Adafruit's luminosity sensor- TSL2591, which will be integerated in the project Resistor Value Recognizer. The TSL2591 sensor measures the light of the environment in lux. The values obtained from the sensor will be used to control LED's in the final project to provide adequate lighting to the camera.
@@ -95,13 +97,12 @@ While setting up the Raspberry Pi, don't forget to enable the I2C bus in the sam
 
 You can use the fritzing files made by me to get started on your breadboarding. The connections can be found in it. ([Fritzing File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB.fzz))
 Another resource that can be used for finding the right connections is [this part](https://learn.adafruit.com/adafruit-tsl2591/python-circuitpython#python-computer-wiring-6-3) from a Adafruit webpage.
-
 <img src= "Images/PCB_bb.jpg" width="400" height="500" alt="Breadboard from fritzing 1">
 <img src= "Images/Schematics.JPG" width="400" height="500" alt="Breadboard from fritzing 2">
 
 It is important to test the validity of the the connections and the sensor before printing the PCB, so assembling the connections of the sensor to the Raspberry Pi on a breadboard, as shown below, is important.  
 
-<img src= "Images/RealBreadboard.JPG" width="500" height="600" alt="Breadboard connections">
+<img src= "Images/RealBreadboard.JPG" width="800" height="600" alt="Breadboard connections">
 
 ### Step 3- Uploading Code and Testing 
 
@@ -111,4 +112,15 @@ In some cases the user might need to follow the steps given in the original refr
 
 To run the code, move into the right directory on the command terminal and then use the command ```python tsl2591_test.py```. The output will display the light intensity in lux units as sensed by the sensor.
 
-<img src= "Images/outputSnip.JPG"  alt="Output">
+![Output](Images/outputSnip.JPG)
+
+All the connections together can be seen below:
+<img src="Images/powerUp1.jpg" alt="Connections">
+
+### Step 4- PCB Etching, Soldering and Power Up
+
+The fritzing file provided below should be converted to a gerber file and then used to get the PCB etched.
+[Fritzing File 2](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Electronics/PCB2.fzz) 
+
+
+
