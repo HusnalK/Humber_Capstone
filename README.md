@@ -14,7 +14,7 @@
 
 [Step 3- Uploading Code and Testing ](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-3--Uploading-Code-and-Testing)
 
-[Step 4- PCB Etching, Soldering and Power Up](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-4--PCB-Etching,-Soldering-and-Power-Up)
+[Step 4- PCB Etching, Soldering and Power Up](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-4--PCB-Etching-Soldering-and-Power-Up)
 
 [Step 5- Case Laser Cutting and Assembling](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR#Step-5--Case-Laser-Cutting-and-Assembling)
 
