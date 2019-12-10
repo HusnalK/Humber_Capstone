@@ -62,7 +62,7 @@ My budget can be found [here](https://github.com/HusnalK/Resistor-Value-Recogniz
 
 ### Time Commitment
 
-The schedule that was followed by me ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Documentation/blob/master/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
+The schedule that was followed by me ([Schedule](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Documentation/CapstoneGProject.pdf)) is based on a weekly basis as required by my course. 
 
 However, for a person who:
 * has all the parts procured along with a raspberrry pi which has raspbian installed and booted up
@@ -148,7 +148,7 @@ In this project, I am using a clear acrylic for my case since it will make it ea
 
 Again, don't forget to edit out my name and the name of the project! 
 
-[CorelDraw File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/Mechanical/blob/master/HusnalPi2CaseX6New.cdr) 
+[CorelDraw File](https://github.com/HusnalK/Resistor-Value-Recognizer-RVR/blob/master/Mechanical/HusnalPi2CaseX6New.cdr) 
 
 The original design for the case can be found here: [Original CorelDraw File](https://github.com/diy-electronics/raspberrypi-b-plus-case)  
 
