@@ -52,8 +52,8 @@ Given below is the list of all the parts that might be required in this project.
 | 40x20cm Female to Female Wires |       1                     | Amazon  | $ 6.99                    | https://amzn.to/2RHou3L |
 | Acrylic Plexiglass Sheet       |       1                     | Amazon  | $ 19.99                   | https://amzn.to/2Ry0JLj |
 | Screws (M2.5)                  |       4                     | Digikey | $ 0.15                    | https://bit.ly/2t4eDuB  |
-| Nuts (M2.5)                    |       4                     | Digikey | $ 0.32                    | https://bit.ly/355WCdt  |
-Total = 190.78 CAD
+| Nuts (M2.5)                    |       4                     | Digikey | $ 0.23                    | https://bit.ly/2E8dm80  |
+Total = 190.42 CAD
 
 I am using a Raspberry Pi 3b+ as my broadcom development platform. The micro SD card is used to upload the Raspbian and set up the Raspberry Pi. Some of these supplies like Raspberry Pi and its power supply, micro SD card, header and wires, ethernet cable and Acrylic glass sheet, might already be available with a lot of people doing this project and that greatly reduces the cost of the project. I also bought a USB 3 to Ethernet Adaptor to connect my Raspberry Pi to my laptop using SSH and RDP. This part from Amazon does not require any drivers to be downloaded on Windows.  
 
